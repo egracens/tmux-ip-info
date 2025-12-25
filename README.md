@@ -58,6 +58,20 @@ set -gq "@catppuccin_${MODULE_NAME}_text" " #{E:@ip_country}"
 source -F "$HOME/.config/tmux/plugins/tmux/utils/status_module.conf"
 ```
 
+Source the modules in your `tmux.conf`:
+
+```bash
+source -F "$HOME/.config/tmux/modules/country.conf"
+source -F "$HOME/.config/tmux/modules/ip.conf"
+```
+
+Add to status bar:
+
+```bash
+set -g status-right "#{E:@catppuccin_status_country}"
+set -ag status-right "#{E:@catppuccin_status_ip}"
+```
+
 ## License
 
 MIT
