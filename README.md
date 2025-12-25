@@ -2,7 +2,7 @@
 
 Display public IP address and country code in tmux status bar.
 
-![screenshot](screenshot.png)
+![screenshot](screenshot1.png)
 
 ## Installation
 
